@@ -1,0 +1,39 @@
+
+.carrosel{
+    overflow: hidden;  
+    cursor: pointer;
+}
+.rs{
+    position: absolute;
+    animation-name: animaco;
+    animation-duration: 20s;
+    animation-iteration-count: infinite;
+    opacity: 0;
+    width: 1000px;
+    height: 400px;
+    left: 15%;
+}
+@keyframes animaco{
+    25%{
+        opacity: 1;
+        transform: scale(1.1.1.1);
+    }
+50%{
+    opacity: 0;
+}
+}
+
+.rs:nth-child(1){
+  animation-delay: 0s;
+}
+
+.rs:nth-child(2){
+    animation-delay: 5s;
+}
+
+.rs:nth-child(3){
+    animation-delay: 10s;
+}
+.rs:nth-child(4){
+    animation-delay: 15s;
+}
